@@ -32,7 +32,7 @@ This document maintains functional requirements for the Haveno user interface (w
 ### Open Trade
 - The user can directly chat with their trade peer.
 - The user can open a dispute for an open trade after an allotted time.
-- The user can directly chat with the arbitrator.
+- The user can directly chat with the arbitrator after a dispute is open.
 - The user can accept or reject the arbitrator decision?
 - The user is notified when their offer is taken.
 - The user is notified when they should make payment or confirm received payment.
