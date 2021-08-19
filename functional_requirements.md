@@ -42,6 +42,7 @@ This document maintains functional requirements for the Haveno user interface (w
 - The user can view their open trades.
 - The user can view their completed trades.
 - The user can view their failed trades.
+- The user can view disputed trades and their status
 
 ### Settings
 - The user can export a backup of their Haveno instance to a zip file.
