@@ -1,6 +1,6 @@
 # Haveno Functional Requirements
 
-This document maintains functional requirements for the Haveno user interface (work in progress).
+This document maintains functional requirements for the Haveno user interface.
 
 ### Startup
 - On first startup, the user must configure a password.
@@ -22,9 +22,12 @@ This document maintains functional requirements for the Haveno user interface (w
 
 ### Make or Take Offers
 - The user can make an offer to buy or sell XMR for another asset.
+- Trade limits depend on the trade pair (e.g. $20-$200 for USD trades, 0.05-2 XMR for crypto trades, higher limits for atomic swaps).
+- Offers can be made for a range with a minimum and maximum trade amount.
 - The user can take an offer to buy or sell XMR for another asset.
 - The Haveno wallet must have sufficient balance in order to make or take an offer.
 - If the Haveno wallet balance is insufficient to make or take an offer, the user is prompted to deposit funds to their Haveno wallet and wait 10 confirmations (~20 minutes).
+- The taker specifies the trade amount when taking an offer for a range.
 - The user is prompted to confirm trade details before making or taking offer.
 - Total funds needed to trade = trade amount + security deposit + trade fee.
 - If the user is selling XMR, they can enter a new receiving payment account (which is saved) or select from previous receiving payment accounts.
@@ -54,3 +57,10 @@ This document maintains functional requirements for the Haveno user interface (w
 
 ### Other
 - The application can present any errors that occur (e.g. error bar appears across top?).
+- The user can split their outputs into smaller amounts manually or when making a trade which reserves too much balance unnecessarily (e.g >50%).
+
+### Non-MVP requirements
+- The user can trade BTC and XMR using atomic swaps.
+- The user can deposit into their BTC wallet.
+- The user can withdraw from their BTC wallet.
+- The user must deposit to their BTC wallet before selling BTC for XMR using an atomic swap.
