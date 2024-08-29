@@ -4,7 +4,7 @@ This document maintains functional requirements for the Haveno user interface.
 
 ### Startup
 - On first startup, the user must configure a password.
-- On first startup, the user can use a local node or configure a remote node (url, username, password).
+- On first startup, the user can use a local node or configure a remote node (url, username, password). (Need specificity, what kind of node, haveno daemon, monero node?)
 - On startup, the application presents a splash screen with progress and description of startup state.
 
 ### Wallet
@@ -50,13 +50,13 @@ This document maintains functional requirements for the Haveno user interface.
 ### Settings
 - The user can export a backup of their Haveno instance to a zip file.
 - The user can view the mnemonic phrase of their Haveno wallet for manual backup (excludes funds locked in multisig).
-- The user can configure a local or remote node.
+- The user can configure a local or remote node. (Needs specificity)
 
 ### Receiving Payment Accounts
 - The user can view, add, and remove accounts to receive payment for XMR.
 
 ### Other
-- The application can present any errors that occur (e.g. error bar appears across top?).
+- The application can present any errors that occur.
 - The user can split their outputs into smaller amounts manually or when making a trade which reserves too much balance unnecessarily (e.g >50%).
 
 ### Non-MVP requirements
