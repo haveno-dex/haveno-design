@@ -7,4 +7,4 @@ Design development is divided into two efforts: 'v1' and 'ongoing'. 'v1' is the 
 ## Resources
 
 - [Figma page](https://www.figma.com/file/ijVTy2RIF8j36LF5y2sRtt/Haveno-Product-Design).
-- Support and questions in the matrix room [#haveno](https://matrix.to/#/#haveno:haveno.network) (bridged to IRC/Libera).
+- Support and questions in the matrix room [#haveno](https://matrix.to/#/#haveno:monero.social) (bridged to IRC/Libera).
